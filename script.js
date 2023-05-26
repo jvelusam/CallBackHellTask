@@ -1,62 +1,75 @@
+
 setTimeout(()=>
 {
 
-    let h1 = document.getElementbyId('one')
+    let h1 = document.getElementById('one')
     h1.style.visibility='visible'
 
-   
     setTimeout(()=>
     {
-        let h2 = document.getElementbyId('two')
+        let h2 = document.getElementById('two')
         h2.style.visibility='visible'
-    },3000)
-
+    }, 2000)
 
     setTimeout(()=>
     {
-        let h3 = document.getElementbyId('three')
+        let h3 = document.getElementById('three')
         h3.style.visibility='visible'
+    }, 2000)
 
-    },3000)
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('four')
+    //     h1.style.visibility='visible'
+    // }, 2000)
 
-    setTimeout(()=>{
-        let h4 = document.getElementbyId('four')
-        h4.style.visibility='visible'
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('five')
+    //     h1.style.visibility='visible'
+    // }, 2000)
 
-    },3000)
-    setTimeout(()=>{
-        let h5 = document.getElementbyId('five')
-        h5.style.visibility='visible'
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('six')
+    //     h1.style.visibility='visible'
+    // }, 2000)
 
-    },3000)
-    setTimeout(()=>{
 
-        let h6 = document.getElementbyId('six')
-        h6.style.visibility='visible'
-    },3000)
-    setTimeout(()=>{
-        let h7 = document.getElementbyId('seven')
-        h7.style.visibility='visible'
 
-    },3000)
-    setTimeout(()=>{
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('seven')
+    //     h1.style.visibility='visible'
+    // }, 2000)
 
-        let h8 = document.getElementbyId('eight')
-        h8.style.visibility='visible'
-    },3000)
-    setTimeout(()=>{
-        let h9 = document.getElementbyId('nine')
-        h9.style.visibility='visible'
 
-    },3000)
-    setTimeout(()=>{
-        let h10 = document.getElementbyId('ten')
-        h10.style.visibility='visible'
-    },3000)
-    setTimeout(()=>
-    {
-        let h11 = document.getElementbyId('text')
-        h11.style.visibility='visible'
-    },3000)
-},3000)
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('eight')
+    //     h1.style.visibility='visible'
+    // }, 2000)
+
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('nine')
+    //     h1.style.visibility='visible'
+    // }, 2000)
+
+
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('ten')
+    //     h1.style.visibility='visible'
+    // }, 2000)
+
+    // setTimeout(()=>
+    // {
+    //     let h1 = document.getElementById('text')
+    //     h1.style.visibility='visible'
+    // }, 2000)
+
+
+    
+}, 2000)
 
